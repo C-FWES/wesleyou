@@ -4,6 +4,9 @@ html {
 
 body {
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -14,5 +17,17 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
