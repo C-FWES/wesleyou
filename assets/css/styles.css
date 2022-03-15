@@ -3,10 +3,9 @@ html {
 }
 
 body {
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  background-size: 400% 400%;
+  background: linear-gradient(-45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%, rgba(255,0,0) 100%);
+  background-size: 200% 200%;
   position: relative;
-  animation: change 5s ease-in-out;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -17,6 +16,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  animation: change 5s ease-in-out infinite;
 }
 
 @keyframes change {
