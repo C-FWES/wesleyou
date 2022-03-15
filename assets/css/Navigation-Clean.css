@@ -1,5 +1,5 @@
 .navigation-clean {
-  background: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #236AD5);
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #333;
@@ -38,7 +38,7 @@
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
-  color: #8f8f8f;
+  color: #000000;
   box-shadow: none;
   background: none;
   pointer-events: none;
@@ -50,7 +50,7 @@
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link {
-  color: #465765;
+  color: #000000;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
