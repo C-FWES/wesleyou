@@ -1,4 +1,5 @@
 //Name animation
+nameTransform = () => {
 rand = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
@@ -59,3 +60,4 @@ init = () => {
     },50);
 }
 window.addEventListener('DOMContentLoaded', init);
+};
