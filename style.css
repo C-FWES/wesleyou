@@ -4,3 +4,6 @@ h1 {
     font-size: 5em;
     text-transform: capitalize;
 }
+canvas {
+    z-index:-1;
+}
