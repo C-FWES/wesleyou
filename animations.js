@@ -75,6 +75,8 @@ cmatrix = () => {
     matrix = () => {
         ctx.fillStyle = '#0001';
         ctx.fillRect(0, 0, w, h);
+        ctx.shadowColor = "#4e4e4e";
+        ctx.shadowBlur = 10;
         ctx.fillStyle = '#0f0';
         ctx.font = '15pt monospace';
 
