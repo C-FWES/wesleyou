@@ -206,7 +206,7 @@ cmatrix = () => {
         ctx.shadowColor = "#686868";
         ctx.shadowBlur = 10;
         ctx.fillStyle = '#0f0';
-        ctx.font = '15pt monospace';
+        ctx.font = 'bold 15pt monospace';
 
         ypos.forEach((y, ind) => {
             const text = String.fromCharCode(Math.random() * 128);

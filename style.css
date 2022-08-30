@@ -33,11 +33,37 @@ body {
     position: sticky;
     top: 0;
     margin-top: 2%;
-    width: 50%;
+    width: 47%;
     height: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2%;
     background-color: #2c2c2c;
+    opacity: 0.9;
+    margin-bottom: 5%;
+    float: left;
+}
+
+.explorer-emu-container {
+    border-radius: 1.5%;
+    position: sticky;
+    top: 0;
+    margin-top: 2%;
+    width: 47%;
+    height: 50%;
+    margin-left: 51%;
+    background-color: #2c2c2c;
+    opacity: 0.9;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.folder-icon {
+    width: 12%;
+    height: auto;
+    fill: #0f0;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
 }
 
 .firstline {
@@ -52,6 +78,13 @@ body {
     margin: 0 auto;
     /* animation: typing 3.5s steps(30, end),
     blink-caret 0.75s step-end infinite; */
+}
+
+h3 {
+    color: #0f0;
+    font-family: monospace;
+    text-shadow: 1px 1px 5px #ffffff;
+    font-size: 2em;
 }
 
 .secondline {
