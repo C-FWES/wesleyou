@@ -1,238 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-    <header>
-        <!-- <meta http-equiv="refresh" content="0; url=http://wesleyou.studio/maintenance.html" /> -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width" height="height=device-height">
-        <link rel="stylesheet" href="style.css">
-        <script src="animations.js"></script>
-    </header>
-    <body>
-        <div id="container">
-        <canvas id="canv" width="500" height="2000">
-            </canvas>
-        <div class="wrapup">
-                <div class="terminal-emu-container">
-                    <div class="typed-out">
-                    <h1 class="firstline" id="main-name">> Wesley Ou</h1><br>
-                    <h1 class="secondline" id="main-name-2">> A 16 year old filled with unrelentless passion.</h1><br>
-                    <h1 class="secondline" id="main-name-3">> Try using UNIX commands to navigate the site.</h1>  <br>
-                    <h1 class="secondline">>
-                        <input type="text" id="term-field" autofocus>
-                    </h1>                 
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wesley Ou</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body><nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+    <div class="container"><a class="navbar-brand logo" href="#">Wesley Ou</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div id="navbarNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="photos.html">Photography</a></li>
+                <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <main class="page lanidng-page"><section class="portfolio-block block-intro">
+    <div class="container">
+        <div class="avatar" style="background-image: url('assets/img/avatars/headshot.jpg');"></div>
+        <div class="about-me">
+            <p>Hey! I&#39;m Wesley Ou, and I have a passion for NLP and UX design!</p><a class="btn btn-outline-primary" role="button" href="https://www.linkedin.com/in/wesleyou/" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</section>
+        <section class="portfolio-block skills"><div class="container">
+    <div class="heading">
+        <h2>Skills</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card special-skill-item border-0">
+                <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                <div class="card-body">
+                    <h3 class="card-title">Data Visualization</h3>
+                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
+            </div>
         </div>
-        <div class="explorer-emu-container">
-            <div class="folder-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="0 0 491.52 491.52" style="enable-background:new 0 0 491.52 491.52;" xml:space="preserve">
-           <g>
-               <g>
-                   <path d="M207.05,102.4l-53.53-51.2H0v389.12h491.52V102.4H207.05z M20.48,419.84V71.68H145.3l53.53,51.2h272.21v296.96H20.48z"/>
-               </g>
-           </g>
-           <g>
-               <g>
-                   <rect x="194.56" y="368.64" width="235.52" height="20.48"/>
-               </g>
-           </g>
-           <g>
-               <g>
-                   <rect x="296.96" y="317.44" width="133.12" height="20.48"/>
-               </g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           <g>
-           </g>
-           </svg>
-           <h3>Links</h3>
+        <div class="col-md-4">
+            <div class="card special-skill-item border-0">
+                <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                <div class="card-body">
+                    <h3 class="card-title">Frontend Development</h3>
+                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="folder-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 491.52 491.52" style="enable-background:new 0 0 491.52 491.52;" xml:space="preserve">
-       <g>
-           <g>
-               <path d="M207.05,102.4l-53.53-51.2H0v389.12h491.52V102.4H207.05z M20.48,419.84V71.68H145.3l53.53,51.2h272.21v296.96H20.48z"/>
-           </g>
-       </g>
-       <g>
-           <g>
-               <rect x="194.56" y="368.64" width="235.52" height="20.48"/>
-           </g>
-       </g>
-       <g>
-           <g>
-               <rect x="296.96" y="317.44" width="133.12" height="20.48"/>
-           </g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       </svg>
-       <h3>Projects</h3>
+        <div class="col-md-4">
+            <div class="card special-skill-item border-0">
+                <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                <div class="card-body">
+                    <h3 class="card-title">Backend Development</h3>
+                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
+        </div>
     </div>
-
-        <div class="folder-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 491.52 491.52" style="enable-background:new 0 0 491.52 491.52;" xml:space="preserve">
-       <g>
-           <g>
-               <path d="M207.05,102.4l-53.53-51.2H0v389.12h491.52V102.4H207.05z M20.48,419.84V71.68H145.3l53.53,51.2h272.21v296.96H20.48z"/>
-           </g>
-       </g>
-       <g>
-           <g>
-               <rect x="194.56" y="368.64" width="235.52" height="20.48"/>
-           </g>
-       </g>
-       <g>
-           <g>
-               <rect x="296.96" y="317.44" width="133.12" height="20.48"/>
-           </g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       <g>
-       </g>
-       </svg>
-       <h3>Resume</h3>
-    </div>
-
-    <div class="folder-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 491.52 491.52" style="enable-background:new 0 0 491.52 491.52;" xml:space="preserve">
-   <g>
-       <g>
-           <path d="M207.05,102.4l-53.53-51.2H0v389.12h491.52V102.4H207.05z M20.48,419.84V71.68H145.3l53.53,51.2h272.21v296.96H20.48z"/>
-       </g>
-   </g>
-   <g>
-       <g>
-           <rect x="194.56" y="368.64" width="235.52" height="20.48"/>
-       </g>
-   </g>
-   <g>
-       <g>
-           <rect x="296.96" y="317.44" width="133.12" height="20.48"/>
-       </g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   <g>
-   </g>
-   </svg>
-   <h3>About</h3>
+</div></section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div><div class="social-icons">
+    <a href="https://www.instagram.com/wesly.vvs/" target="_blank">
+        <i class="icon ion-social-instagram-outline"></i>
+    </a>
+    <a href="https://github.com/C-FWES" target="_blank">
+        <i class="icon ion-social-github-outline"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/wesleyou/" target="_blank">
+        <i class="icon ion-social-linkedin-outline"></i>
+    </a>
 </div>
         </div>
-        </div>
-       <script type="text/javascript">
-           cmatrix();
-           nameTransform();
-           nameTransform2();
-           nameTransform3();
-       </script> 
-    </body>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
 </html>
